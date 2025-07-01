@@ -28,9 +28,6 @@ module.exports = [
     },
   },
 
-  // Response compression
-  'strapi::compress',
-
   // Cache (optional, custom middleware)
   {
     name: 'strapi::cache',
